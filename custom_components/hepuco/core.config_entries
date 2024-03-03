@@ -1,0 +1,445 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "b6037267b8a722ac8c6784dbfe648f56",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "52c1c9d5f3e7fda08901afce6f1cfa67",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0ccce73e3f3f268bb0b909fef8706170",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "bluetooth",
+        "title": "08:D2:3E:CA:13:76",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "08:D2:3E:CA:13:76",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "55de05d0abb726613e6c176247739a17",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "homeassistant_sky_connect",
+        "title": "Home Assistant SkyConnect",
+        "data": {
+          "device": "/dev/serial/by-id/usb-Nabu_Casa_SkyConnect_v1.0_aca17b8d418dec11bfac69e883c5466d-if00-port0",
+          "vid": "10C4",
+          "pid": "EA60",
+          "serial_number": "aca17b8d418dec11bfac69e883c5466d",
+          "manufacturer": "Nabu Casa",
+          "description": "SkyConnect v1.0"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "usb",
+        "unique_id": "10C4:EA60_aca17b8d418dec11bfac69e883c5466d_Nabu Casa_SkyConnect v1.0",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "462ea0f6a9e74b0c922d132f7d22c52a",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e7746acbbfb54cf115f4f92cfd688516",
+        "version": 4,
+        "minor_version": 1,
+        "domain": "zha",
+        "title": "SkyConnect v1.0",
+        "data": {
+          "device": {
+            "path": "/dev/serial/by-id/usb-Nabu_Casa_SkyConnect_v1.0_aca17b8d418dec11bfac69e883c5466d-if00-port0",
+            "flow_control": "software",
+            "baudrate": 115200
+          },
+          "radio_type": "ezsp"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "usb",
+        "unique_id": "10C4:EA60_aca17b8d418dec11bfac69e883c5466d_Nabu Casa_SkyConnect v1.0",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "495bfc95f3e33bea2a44ff3a3be312ba",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "dwd",
+        "title": "Gütersloh/Ems",
+        "data": {
+          "station_id": "H265"
+        },
+        "options": {
+          "current_weather": "forecast",
+          "forecast": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "H265",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4fd4b7c4142630479af8adfef2e71ddb",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "mobile_app",
+        "title": "Pixel 6",
+        "data": {
+          "app_id": "io.homeassistant.companion.android",
+          "app_name": "Home Assistant",
+          "app_version": "2024.1.5-full (12102)",
+          "device_name": "Pixel 6",
+          "manufacturer": "Google",
+          "model": "Pixel 6",
+          "os_name": "Android",
+          "os_version": "34",
+          "supports_encryption": false,
+          "app_data": {
+            "push_websocket_channel": true,
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+            "push_token": "eKK0zbuiRLi1N4sHFtDZY4:APA91bGx3Ii5vDPBrgl7edjseOai3ztGklCw_8IT0QOnvpHn79Iy_CVY3TxPYd4rdYWLpQH_purE5qf_kyyG4eEKmMwy0SsJCkEtiTzFYrzYxfb8gQjcHwW2HrgaIat-3ZDit6fmcAVp"
+          },
+          "device_id": "c4e788b6d70f2acf",
+          "webhook_id": "4c501cb9562433075308d61ebc61745c3ecd16ecd4fc83bdf3a3dab7b806daf0",
+          "user_id": "75937d60237d4a4580776795f1031ec5"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.homeassistant.companion.android-c4e788b6d70f2acf",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "121c84416e303c0ef1a03d8d0878057b",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "dlna_dms",
+        "title": "JULIUS-LAPTOP: Bobby:",
+        "data": {
+          "url": "http://192.168.178.77:2869/upnphost/udhisapi.dll?content=uuid:e63a9708-6fd0-43a7-9be1-68021ed3ccda"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:e63a9708-6fd0-43a7-9be1-68021ed3ccda::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "399820d0a3d29c2a8c0d1262e10ccf8a",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "dlna_dms",
+        "title": "AVM FRITZ!Mediaserver",
+        "data": {
+          "url": "http://192.168.178.1:49000/MediaServerDevDesc.xml"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:fa095ecc-e13e-40e7-8e6c-0896d764cf9e::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "fe0d9b65dfa45406d4f3fd7154b826c2",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "fritzbox",
+        "title": "AVM FRITZ!Box: FritzBox UPnP/1.0 AVM",
+        "data": {
+          "host": "192.168.178.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "123402409-bccb-40e7-8e6c-0896D764CF9E",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2277d31615a84bfb0544192511710e16",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "ipp",
+        "title": "Photosmart 5520 series [0B1109]",
+        "data": {
+          "host": "192.168.178.29",
+          "name": "Photosmart 5520 series [0B1109]"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "1c852a4d-b800-1f08-abcd-c4346b0b1109",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "af1efdb07c714aa7e51b525de7d70939",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "upnp",
+        "title": "InternetGatewayDeviceV2 - FRITZ!Box 6360 Cable (um)",
+        "data": {
+          "udn": "uuid:75802409-bccb-40e7-9f6c-0896D764CF9E",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+          "original_udn": "uuid:75802409-bccb-40e7-9f6c-0896D764CF9E",
+          "mac_address": "08:96:d7:64:cf:9e",
+          "host": "192.168.178.1",
+          "location": "http://192.168.178.1:49000/igd2desc.xml"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:75802409-bccb-40e7-9f6c-0896D764CF9E::urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1d7cfce733d55c29bb79e0112b18b855",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "fritz",
+        "title": "FRITZ!Box Tools: FritzBox UPnP/1.0 AVM",
+        "data": {
+          "host": "192.168.178.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "123402409-bccb-40e7-8e6c-0896D764CF9E",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e49f38521be23b06963b85a8361f30b2",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "upnp",
+        "title": "FRITZ!Box 6360 Cable (um)",
+        "data": {
+          "udn": "uuid:75802409-bccb-40e7-8e6c-0896D764CF9E",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:75802409-bccb-40e7-8e6c-0896D764CF9E",
+          "mac_address": "08:96:d7:64:cf:9e",
+          "host": "192.168.178.1",
+          "location": "http://192.168.178.1:49000/igddesc.xml"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:75802409-bccb-40e7-8e6c-0896D764CF9E::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1cd75d2e356c3b7d279a4eb721313dd2",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "local_calendar",
+        "title": "Test",
+        "data": {
+          "calendar_name": "Test",
+          "storage_key": "test"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "627fafdc6fb64972d8aa2977c8ff8407",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "integration",
+        "title": "ENCHARGE energy charged",
+        "data": {},
+        "options": {
+          "name": "ENCHARGE energy charged",
+          "source": "sensor.enphase_gateway_122225053579_encharge_charging_power",
+          "method": "trapezoidal",
+          "round": 2.0,
+          "unit_prefix": "none",
+          "unit_time": "h"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "4d2d626b79cd4d1cd2661f5d0ef21a5c",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "integration",
+        "title": "ENCHARGE energy discharged",
+        "data": {},
+        "options": {
+          "name": "ENCHARGE energy discharged",
+          "source": "sensor.enphase_gateway_122225053579_encharge_discharging_power",
+          "method": "trapezoidal",
+          "round": 2.0,
+          "unit_prefix": "none",
+          "unit_time": "h"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "fe0fde509b717eb922d04ba1f98f9587",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "integration",
+        "title": "Grid import riemann sum",
+        "data": {},
+        "options": {
+          "name": "Grid import riemann sum",
+          "source": "sensor.enphase_gateway_122225053579_grid_import",
+          "method": "trapezoidal",
+          "round": 2.0,
+          "unit_prefix": "none",
+          "unit_time": "h"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "6276613c0d70add49c7b7215622e14cf",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "integration",
+        "title": "Grid export riemann sum",
+        "data": {},
+        "options": {
+          "name": "Grid export riemann sum",
+          "source": "sensor.enphase_gateway_122225053579_grid_export",
+          "method": "trapezoidal",
+          "round": 2.0,
+          "unit_prefix": "none",
+          "unit_time": "h"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "825425d6cd611cf68785441dbe12cd03",
+        "version": 2,
+        "minor_version": 1,
+        "domain": "enphase_gateway",
+        "title": "Enphase Gateway 122225053579",
+        "data": {
+          "host": "192.168.178.95",
+          "name": "Enphase Gateway 122225053579",
+          "username": "uv-hoffmann@arcor.de",
+          "password": "Dublin08"
+        },
+        "options": {
+          "inverters_config": "gateway_sensor",
+          "encharge_entities": true
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "122225053579",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "084c4698c3979db91ecca58308ccf84a",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "co2signal",
+        "title": "CO2 Signal",
+        "data": {
+          "api_key": "aTC4Ux4U6b952yGAhJTZItMvwcLmlXKW"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1776040be37bf868e42d65a3e4688b02",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "hepuco",
+        "title": "test",
+        "data": {
+          "name": "test",
+          "pv_power_sensor": "sensor.enphase_gateway_122225053579_current_power_production",
+          "grid_export_sensor": "sensor.enphase_gateway_122225053579_grid_export"
+        },
+        "options": {
+          "power_heat_pump": 2100,
+          "treshold_0°C": 300,
+          "treshold_10°C": 600,
+          "treshold_20°C": 2000
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}

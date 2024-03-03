@@ -1,0 +1,53 @@
+{
+  "title": "Better Thermostat",
+  "config": {  
+    "flow_title": "Hepuco - Heat pump coordinator",
+    "step": {
+      "user": {
+        "description": "Setup your Heat pump coordinator.",
+        "data": {
+          "name": "Name",
+          "pv_power_sensor" : "Sensor representing the current production of your pv-system",
+          "grid_export_sensor" : "Sensor representing the current grid export"
+        }
+      },
+      "config": {
+        "title": "Configuration",
+        "data": {
+          "power_heat_pump": "Power of the heat pump",
+          "treshold_0°C": "Treshold at 0°C",
+          "treshold_10°C": "Treshold at 10°C",
+          "treshold_20°C": "Treshold at 20°C"
+        }
+      }
+    },
+    "error": {
+      "unknown": "Unexpected error. See the logs for more details"
+    },
+    "abort": {
+      "already_configured": "Device is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Configuration",
+        "description": "Configure the Integration",
+        "data": {
+          "inverters_config": "Inverter entities",
+          "encharge_entities": "Enable detailed Entities for ENCHARGE batteries",
+          "cache_token": "Cache the Enphase Token"
+        }
+      }
+    }
+  },
+  "selector": {
+    "inverters_config": {
+      "options": {
+        "gateway_sensor": "Add inverters as gateway sensor",
+        "device": "Add inverters as dedicated devices",
+        "disabled": "Disable inverters"
+      }
+    }
+  }
+}
